@@ -2,7 +2,8 @@ import axios from "axios";
 import { toast } from "react-hot-toast";
 
 const api = axios.create({
-  baseURL: "http://localhost:8080/api",
+  // baseURL: "http://localhost:8080/api",
+  baseURL: "https://user-mngmt-stealth.onrender.com",
 });
 
 api.interceptors.request.use((config) => {

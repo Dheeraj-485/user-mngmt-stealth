@@ -5,6 +5,7 @@ require("dotenv").config();
 //nodemailer is used to send email
 
 const transporter = nodemailer.createTransport({
+  port: 465,
   service: "gmail",
   auth: {
     user: process.env.EMAIL_USER,
