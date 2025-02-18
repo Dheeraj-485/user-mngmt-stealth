@@ -198,7 +198,4 @@ user-mngmt-stealth-main/
 │   ├── server.js      # Entry point
 ```
 
-## Conclusion
-This project is a fully functional **User Management System** with authentication, role-based access, and secure API handling. It follows best practices for security and performance.
 
-For any questions, feel free to reach out!
