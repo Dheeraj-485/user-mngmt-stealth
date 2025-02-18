@@ -126,7 +126,7 @@ http://localhost:8080/api
     "message": "User created successfully. Temporary password sent to email.",
     "doc": {
         "name": "demoUser",
-        "email": "ksilent528@gmail.com",
+        "email": "demoUser@gmail.com",
         "password": "$2b$10$F2gDSuZCpNJt5fQUPNZs6ex7RTsVSkk4SjR5y3bzPBl5TnpvyYV.G",
         "role": "user",
         "_id": "67b43289f1fc2b5563377b82",
