@@ -35,7 +35,7 @@ const AdminDashboard = () => {
       await api.delete(`/users/${id}`);
       setUsers(users.filter((user) => user._id !== id));
       toast.success("User deleted");
-      // navigate("/login");
+      
     } catch (err) {
       toast.error("Failed to delete user");
     }
