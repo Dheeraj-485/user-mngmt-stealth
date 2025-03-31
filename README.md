@@ -180,7 +180,6 @@ Authorization: Bearer <jwt-token>
 ---
 
 ## Additional Features (Bonus)
-- Rate limiting to prevent brute-force attacks
 - Password reset functionality
 - Role-based access control for different user roles
 
